@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+</head>
+<body>
+
+    <h2>სარეგისტრაციო ფორმა</h2>
+
+    <form>
+
+        <label for="name">სახელი:</label><br>
+        <input type="text" id="name" name="name" placeholder="შეიყვანეთ სახელი" required><br><br>
+
+        <label for="color">ფავორიტი ფერი:</label><br>
+        <input type="color" id="color" name="favorite_color"><br><br>
+
+        <label for="email">ელ.ფოსტა:</label><br>
+        <input type="email" id="email" name="email" placeholder="example@gmail.com" required><br><br>
+
+        <label for="password">პაროლი:</label><br>
+        <input type="password" id="password" name="password"  required><br><br>
+
+        <label for="birthdate">დაბადების თარიღი:</label><br>
+        <input type="date" id="birthdate" name="birthdate" required><br><br>
+
+        <p>გენდერი:</p>
+
+        <label for="male">მამრობითი</label>
+        <input type="radio" id="male" name="gender" value="male" required><br>
+
+        <label for="female">მდედრობითი</label>
+        <input type="radio" id="female" name="gender" value="female"><br>
+
+        <label for="policy">
+            ვეთანხმები საიტის გამოყენების პოლიტიკასა და წესებს
+        </label>
+        <input type="checkbox" id="policy" name="policy" required><br><br>
+
+        <!-- გაგზავნის ღილაკი -->
+        <input type="submit" value="რეგისტრაცია">
+
+    </form>
+
+</body>
+</html>

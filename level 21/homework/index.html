@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- form ტეგი გამოიყენება მონაცემების შესაგროვებლად -->
+    <form>
+
+        <!-- text ტიპის input — სახელის შესაყვანად -->
+        <!-- placeholder აჩვენებს მინიშნებას input-ის შიგნით -->
+        <!-- required ნიშნავს, რომ ველის შევსება აუცილებელია -->
+        <input type="text" name="username" placeholder="შეიყვანეთ სახელი" required>
+        <br><br>
+
+        <!-- email ტიპის input — ელფოსტის შესაყვანად -->
+        <input type="email" name="email" placeholder="შეიყვანეთ ემაილი" required>
+        <br><br>
+
+        <!-- password ტიპის input — პაროლის დასამალად -->
+        <input type="password" name="password" placeholder="შეიყვანეთ პაროლი" required>
+        <br><br>
+
+        <!-- radio input — გენდერის არჩევისთვის -->
+        <!-- name ერთნაირია, რომ ერთდროულად მხოლოდ ერთი აირჩეს -->
+        <p>აირჩიეთ გენდერი:</p>
+
+        <input type="radio" name="gender" value="male">
+        მამაკაცი
+
+        <input type="radio" name="gender" value="female">
+        ქალი
+        <br><br>
+
+        <!-- checkbox — პირობებზე დათანხმება -->
+        <input type="checkbox" name="agree" required>
+        ვეთანხმები წესებს
+        <br><br>
+
+        <!-- submit ღილაკი — ფორმის გასაგზავნად -->
+        <input type="submit" value="რეგისტრაცია">
+
+    </form>
+
+
+</body>
+</html>
